@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tabview_id" type="id" />
+    <item name="tabview_fragment_container" type="id" />
+
+    <item name="ex_header" type="id"/>
+</resources>

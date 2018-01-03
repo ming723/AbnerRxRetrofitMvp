@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/base_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_margin_50"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/base_view_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_margin_5"
+            android:src="@drawable/base_back_left" />
+
+        <TextView
+            android:id="@+id/base_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_margin_20"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLength="26"
+            android:textColor="@color/colorFFF"
+            android:textSize="@dimen/sp_text_16" />
+
+        <TextView
+            android:id="@+id/base_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_margin_5"
+            android:padding="@dimen/dp_margin_5"
+            android:text="编辑"
+            android:textColor="@color/colorFFF"
+            android:textSize="@dimen/sp_text_14"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/base_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+</LinearLayout>

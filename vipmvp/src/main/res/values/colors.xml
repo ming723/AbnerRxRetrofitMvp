@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dc3c3c</color>
+    <color name="text_content_color_d729">#99d43434</color>
+    <color name="colorPrimaryDark">#dc3c3c</color>
+    <color name="colorAccent">#dc3c3c</color>
+    <color name="color222">#222222</color>
+    <color name="color666">#666666</color>
+    <color name="color999">#999999</color>
+    <color name="colorf1f">#f1f1f1</color>
+    <color name="colorFFF">#ffffff</color>
+    <color name="colore89">#e8e9e9</color>
+    <color name="colorbdf">#BDF634</color>
+    <color name="transparent">#00000000</color>
+    <color name="coloread">#A94D1B</color>
+
+    <color name="colore1e">#6C0000</color>
+    <color name="transparent60">#70000000</color>
+    <color name="backgroud_transparent_bg">#00000000</color>
+
+    <color name="Orange">#e75946</color>
+    <color name="Yellow">#f4d227</color>
+    <color name="Blue">#4674e7</color>
+    <color name="Green">#0ba62c</color>
+
+
+    <color name="dialogutil_ios_btntext_blue">#007aff</color>
+    <color name="dialogutil_text_title_11">#111111</color>
+    <color name="dialogutil_text_msg_33">#333333</color>
+    <color name="dialogutil_text_input_44">#444444</color>
+
+    <color name="dialogutil_text_item_33">#333333</color>
+    <color name="dialogutil_btn_alert">#222222</color>
+    <color name="dialogutil_line_dd">#cccccc</color>
+    <color name="dialogutil_ios_btn_normal">#ffffff</color>
+    <color name="dialogutil_ios_btn_pressed">#eeeeee</color>
+    <color name="dialogutil_bg_white">#ffffff</color>
+    <color name="dialogutil_text_gray">#999999</color>
+    <color name="dialogutil_text_gray_light">#B3B3B3</color>
+    <color name="dialogutil_text_black">#333333</color>
+    <color name="dialogutil_text_black_light" >#666666</color>
+    <color name="dialogutil_text_black_lighter" >#999999</color>
+
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <color name="black_de">#DE000000</color>
+
+
+
+
+</resources>
