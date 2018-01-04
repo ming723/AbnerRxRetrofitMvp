@@ -52,6 +52,8 @@
              Helper：联网请求类，不是继承BaseActivityHttp或者BaseFragmentHttp类的，均可单独使用
 
              具体代码:app下httptest包下看ActivityHttpTest类
+             
+             设置缓存，加载动画，头部信息均在 HttpHelper下：
 
 ### 二、主页Tab设置（这里我设置了5个tab）：
 
@@ -1029,3 +1031,17 @@
                   adapter = new ScienceAdapter();
                   gridView.setAdapter(adapter);
                   adapter.refreshCard();
+                  
+                  
+### 九、注解使用：
+        在Activity中初始化ViewUtils.inject(this);，最好在父类中
+        在Fragment中初始化ViewUtils.inject(getActivity(),view);
+
+        控件注解：
+                 @ViewInject(R.id.btn_demo1)
+                 Button mButton;
+        事件注解：
+                @OnClick(R.id.btn_demo1)
+                public void onClickDemo(View v){
+
+                 }
