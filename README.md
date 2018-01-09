@@ -1,4 +1,6 @@
-# AbnerRxRetrofitMvp
+# AbnerRxRetrofitMvp【作者：AbnerMing,微信公众号：HelloAbner】
+### 使用：
+     自己的项目直接依赖vipmvp这个库即可
 ### 初始化：
      直接继承AbnerApplication，或者自己在Application或者其它主入口中写入：
      StyledDialog.init(this);//Dialog初始化
