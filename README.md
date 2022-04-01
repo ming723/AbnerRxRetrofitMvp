@@ -1,4 +1,4 @@
-# AbnerRxRetrofitMvp【作者：AbnerMing,微信公众号：HelloAbner】
+# AbnerRxRetrofitMvp【作者：AbnerMing,微信公众号：Android干货铺】
 ### 使用：
      自己的项目直接依赖vipmvp这个库即可
 ### 初始化：
